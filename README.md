@@ -9,8 +9,12 @@ THe data that is used for classification models is based on social ad response. 
 based on the scenario that if a vehicle company send out ad offers to certain people
 on facebook, will those people choose to buy the car or not. 
 
-The regression models are seperated in different notebooks to avoid messiness. For the 
-most part, each of the models use a different dataset. 
+The regression models are seperated in different notebooks to avoid messiness. It is based
+on two datasets Position Salaries and 50 Start Ups. In 50 Start Ups, we are trying to find
+a way to spot good companies invest in. This means figure out what features are important.
+Position Salaries contain data on different salaries of different positions (in years of experience)
+on a company. We will try to develop the best model that can future detect lies from 
+prospective employees about their previous company's salary. 
 
 The gist here is that you will be able to learn by comparing different models because
 evaluating perfomance is forever important. 
